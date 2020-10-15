@@ -3,6 +3,12 @@ title:  "Bridge to Kubernetes"
 date:   2020-10-09 14:55:14 +0200
 categories: posts
 excerpt: "A figurative bridge between your development workstation and your Kubernetes cluster."
+header:
+  overlay_image: /assets/bridge.jpg
+  teaser: /assets/bridge.jpg
+  overlay_filter: 0.6
+  caption: "Photo by [Joseph Barrientos](https://unsplash.com/@jbcreate_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/bridge?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+
 ---
 
 # What is it?
@@ -50,13 +56,13 @@ For this to work, you need to propagate the headers.
 # Moving forward
 
 
-
+```ruby
 def print_hi(name)
   puts "Hi, #{name}"
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
-
+```
 
 ## Yas
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
